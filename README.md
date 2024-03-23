@@ -59,6 +59,13 @@ These two sentences can be prepared in a CoNLL formatted text file as above.
 ![alt text](image.png)
 Where B- and I- prefixes stand for the beginning and inside of the entity, while O stands for out of tag or no tag. 
 
+## How to create the NER?
+* Approach # 1: Simple Lookup
+![alt text](image-6.png)
+* Approach # 2: Rule  Based NER
+![alt text](image-5.png)
+* Approach # 3: Machine Learning
+
 ## How to solve this problem: Named-Entity-Recognition (NER) on Twitter with Bi-directional LSTM
 NER is a common task in NLP systems. Given a text document, a NER  system aims at extracting the entities (e.g., persons, organizations, locations, etc.) from the text.  Here, a BiLSTM (bi-directional long short term memory) will be used to recognize the named entities from Twitter texts.
 
